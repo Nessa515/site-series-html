@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-principal: #000000;
+    --cor-secundaria: #FFFFFF;
+}
+
+.serie{
+    background-image: url("../images/background.png");
+    display: flex;
+}
+
+.serie .capa{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.info{
+    display: flex;
+}
+
+.serie .info > h1{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 42px;
+}
+
+.serie .info > p{
+    margin-top: 70px;
+    margin-left: 30px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.gender{
+    display: flex;
+}
+
+.gender > p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.faixa{
+    border: 1px var(--cor-principal) solid;
+    height: 24px;
+    width: 29px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.faixa > p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.sinopse{
+    width: 742px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.sinopse > p{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.idioma{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.idioma > span{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.idioma > p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.avaliacao{
+    margin-top: 30px;
+    margin-left: 30px; 
+}
+
+.avaliacao > span{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.classificacao{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.verde{
+    width: 245px;
+    height: 9px;
+    background-color: rgba(33, 208, 122, 1);
+    margin-top: 20px;
+}
+
+.cinza{
+    width: 35px;
+    height: 9px;
+    background-color: rgba(196, 196, 196, 1);
+    margin-top: 20px;
+}
+
+.classificacao > h2{
+    font-family: "Quicksand", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.p-chaves{
+    display: flex;
+    margin-right: 50px;
+    margin-left: 30px;  
+}
+
+.p-chaves > .chave{
+    width: 400px;
+}
+
+.p-chaves > .chave > span{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7px;
+    margin-right: 100px;
+}
+
+.tags > p{
+    width: auto;
+    height: 25px;
+    background-color: #C4C4C4;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.assistir > span{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.plataformas{
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.plataformas > img{
+    margin-right: 20px;
+}
+
+.imagens > h4{
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.imagens > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagens > div > img{
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.elenco{
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    font-family: "Quicksand", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.person{
+    width: 139px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.person > img{
+    border-radius: 5px;
+}
+
+.person > span{
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.person > p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 100px;
+}
