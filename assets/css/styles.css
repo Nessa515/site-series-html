@@ -7,6 +7,8 @@
 :root{
     --cor-principal: #000000;
     --cor-secundaria: #FFFFFF;
+    --font-principal: "Quicksand", sans-serif;
+    --font-secundaria: "Roboto", sans-serif;
 }
 
 .cabecalho{
@@ -15,7 +17,7 @@
     display: flex;
     justify-content: space-evenly;
     height: 46px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-secundaria);
 }
 
 .cabecalho .titulo{
@@ -62,14 +64,14 @@
 }
 
 .introducao > h1{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 36px;
     padding-top: 150px;
     margin-left: 200px;
 }
 
 .introducao > h2{
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 22px;
     margin-left: 200px;
     margin-top: 10px;
@@ -90,7 +92,7 @@
 }
 
 .componente > p{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-principal);
     font-size: 14px;
     margin-left: 10px;
     margin-top: 10px;
@@ -107,7 +109,7 @@
 
 .botao > input > {
     color: var(--cor-secundaria);
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-principal);
     font-size: 14px;
     margin-top: 10px;
     text-align: center;
@@ -127,7 +129,7 @@
 }
 
 .filmes1 > div > span{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-principal);
     font-size: 22px;
 }
 
@@ -169,7 +171,7 @@
 
 .rodape > p{
     color: var(--cor-secundaria);
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-principal);
     font-size: 12px;
     padding-top: 30px;
     margin-left: 110px;
@@ -190,7 +192,7 @@
 }
 
 .component .pesquisa > p{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-principal);
     font-size: 12px;
     color: rgba(169, 164, 164, 1);
     margin-top: 8px;
@@ -207,7 +209,7 @@
 }
 
 .component .busca > p{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-principal);
     font-size: 12px;
     color: var(--cor-secundaria);
     text-align: center;
@@ -215,7 +217,7 @@
 }
 
 .component .info{
-    font-family: "Quicksand", sans-serif;
+    font-family: var(--font-principal);
     font-size: 12px;
     color: var(--cor-secundaria);
     margin-left: 500px;
